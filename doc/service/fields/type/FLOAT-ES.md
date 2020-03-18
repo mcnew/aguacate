@@ -31,9 +31,10 @@ Estructura
 
 ## Ejemplo
 
-Requirement: Given a field called id, which accepts floating point values between 0.01 and 10,000.00.
-This field is required when the detail of an element is required (GET), but not when it is the list of elements (GET0).
-In both cases it is recovered as part of the information.
+Requirement: 
+Dado un campo llamado __amount__ que acepta valores de punto flotante entre 0.01 and 10,000.00.
+Este campo es requerido cuando el solicita el detalle (GET), pero no cuando se solicita el listado de elementos (GET0).
+En ambos casos se recupera como parte de la información.
 
 Estructura
 ```json
