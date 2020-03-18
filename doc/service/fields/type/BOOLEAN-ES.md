@@ -29,7 +29,7 @@ Estructura
 
 Requisito: Dado un campo llamado __flag__, que acepta valores booleanos.
 
-Structure
+Estructura
 ```json
 	"flag": {
 		"type": "BOOLEAN",
