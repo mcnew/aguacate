@@ -1,5 +1,5 @@
 [EN](README.md)
-# Sección __Fields__
+# Sección Fields
 
 Esta sección lista y describe los campos de entrada y salida del servicio.
 
