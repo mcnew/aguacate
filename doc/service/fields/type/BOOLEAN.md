@@ -1,3 +1,4 @@
+[ES](BOOLEAN-ES.md)
 # Boolean type
 
 ## Definition
