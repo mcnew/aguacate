@@ -1,3 +1,4 @@
+[EN](BOOLEAN.md)
 # Tipo booleano
 
 ## Definición
