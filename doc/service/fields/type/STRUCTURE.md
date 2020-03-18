@@ -1,3 +1,4 @@
+[ES](STRUCTURE-ES.md)
 # Structure type
 
 ## Definition
