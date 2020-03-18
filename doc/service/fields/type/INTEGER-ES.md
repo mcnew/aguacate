@@ -1,3 +1,4 @@
+[EN](README.md)
 # Tipo Entero
 
 ## Definición
