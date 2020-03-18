@@ -31,7 +31,7 @@ Structure
 
 ## Example
 
-Requirement: Given a field called amount, which accepts floating point values between 0.01 and 10,000.00.
+Requirement: Given a field called __amount__, which accepts floating point values between 0.01 and 10,000.00.
 This field is required when the detail of an element is required (GET), but not when it is the list of elements (GET0).
 In both cases it is recovered as part of the information.
 
