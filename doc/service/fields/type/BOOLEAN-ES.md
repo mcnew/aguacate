@@ -5,7 +5,7 @@
 * Tipo: Boolean
 * Identificador de tipo: BOOLEAN
 * Descripción: Analiza y valida un valor booleano
-* Attributes:
+* Atributos:
   * type: Siempre BOOLEAN
   * input: Describre los metodos en los que se requiere.
   * output: Lista los metodos en que es salida.
