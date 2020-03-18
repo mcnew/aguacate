@@ -57,7 +57,7 @@ Accepted values: 1.00, 59.56 or 2724.78
 
 Scenarios:
 
-If id is 21.02:
+If __amount__ is 21.02:
 * As JSON body:
 ```json
 	{
