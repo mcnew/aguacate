@@ -49,7 +49,7 @@ Valores aceptados: true or "false"
 Escenarios:
 
 Si __flag__ es true:
-* As JSON body:
+* Como cuerpo de un JSON:
 ```json
 	{
 		"flag": "true"
