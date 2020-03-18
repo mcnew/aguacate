@@ -1,3 +1,4 @@
+[ES](FLOAT-ES.md)
 # Floating Point type
 
 ## Definition
@@ -13,7 +14,7 @@
 
 Structure
 ```json
-	"int": {
+	"flt": {
 		"type": "FLOAT",
 		"minval": "...",
 		"maxval": "...",
