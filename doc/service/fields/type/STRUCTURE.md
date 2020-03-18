@@ -86,7 +86,7 @@ Structure
 
 Scenarios:
 
-If id is 12 and name is iota:
+If __id__ is 12 and __name__ is iota:
 * As JSON body:
 ```json
 	{
