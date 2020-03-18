@@ -1,4 +1,4 @@
-[EN](README.md)
+[EN](INTEGER.md)
 # Tipo Entero
 
 ## Definición
