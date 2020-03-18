@@ -1,3 +1,4 @@
+[ES](STRING-ES.md)
 # String type
 
 ## Definition
@@ -14,7 +15,7 @@
 
 Structure
 ```json
-	"name": {
+	"str": {
 		"type": "STRING",
 		"minlen": "...",
 		"maxlen": "...",
