@@ -5,13 +5,13 @@
 * Type Identifier: BOOLEAN
 * Description: Parse and validate a boolean value
 * Attributes:
-  * type: always BOOLEAN
+  * type: Always BOOLEAN
   * input: Describe the inputs.
   * output: List the output methods.
 
 Structure
 ```json
-	"int": {
+	"bool": {
 		"type": "BOOLEAN",
 		"input": {
 			"...": {
