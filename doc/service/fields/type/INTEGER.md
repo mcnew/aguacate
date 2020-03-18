@@ -1,3 +1,4 @@
+[ES](INTEGER-ES.md)
 # Integer type
 
 ## Definition
