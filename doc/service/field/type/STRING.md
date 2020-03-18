@@ -1,4 +1,4 @@
-# Integer type
+# String type
 
 ## Definition
 * Type: String
