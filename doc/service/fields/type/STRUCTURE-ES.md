@@ -34,7 +34,8 @@ Estructura
 
 ## Ejemplo
 
-Requisito: 
+Requisito: Se requiere enviar/recibir un objeto con dos atributos __id__, entero que va del 1 al 2,147,483,647.
+y __name__, una cadena que debe cumplir con la expresion regular ^[-a-zA-Z]+$ y una longitud de entre 5 y 20.
 
 Estructura
 ```json
