@@ -28,6 +28,27 @@ Estructura
 		]
 	}
 ```
+## Formato:
+* Formato configuración:
+  Los números punto flotante pueden ser representado como cadenas o como flotantes json.
+  Es preferible  los numero en cadena, para evitar cualquier problema con el redondeo de punto flotante nativo.
+  Ejemplos:
+  ```text
+	1.01
+	"22.56"
+	"-8453.893"
+	-.1
+  ```
+* Formato de entrada-salida:
+  Los números punto flotante pueden ser representado como cadenas o como flotantes json.
+  Es preferible enviar/recibir los numero en cadena, para evitar cualquier problema con el redondeo de punto flotante nativo.
+
+  Ejemplos:
+  ```text
+	"-231.23"
+	11
+	+.02
+  ```
 
 ## Ejemplo
 
