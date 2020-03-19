@@ -1,5 +1,5 @@
 [EN](STRUCTURE.md)
-# Tipo esructura
+# Tipo estructura
 
 ## Definición
 * Tipo: Estructura (Objeto)
