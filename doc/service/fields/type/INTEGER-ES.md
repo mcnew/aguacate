@@ -28,6 +28,25 @@ Estructura
 		]
 	}
 ```
+## Formato:
+* Formato configuración:
+  Los números enteros pueden estar entre comillas, es decir, como cadenas o como numero json.
+
+  Ejemplos:
+  ```text
+	23712
+	"8426"
+	"-76094"
+  ```
+* Formato de entrada-salida:
+  Los números enteros pueden estar entre comillas, es decir, como cadenas o como numero json.
+
+  Ejemplos:
+  ```text
+	"83753"
+	-654
+	"1"
+  ```
 
 ## Ejemplo
 
