@@ -5,7 +5,7 @@ Esta sección lista y describe los campos de entrada y salida del servicio.
 
 Los tipos son:
 
-* ARRAY
+* [ARRAY](type/ARRAY-ES.md)
 * [BOOLEAN](type/BOOLEAN-ES.md)
 * DATE
 * DATETIME
