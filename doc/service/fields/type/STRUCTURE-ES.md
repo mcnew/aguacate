@@ -1,4 +1,4 @@
-[ES](STRUCTURE-ES.md)
+[EN](STRUCTURE.md)
 # Tipo esructura
 
 ## Definición
