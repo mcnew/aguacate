@@ -85,6 +85,6 @@ Si __start__ tiene el valor de 10:00 en Mexico en horario normal (+6):
 * Como cuerpo de un JSON:
 ```json
 	{
-		"start": "10:00+00:06"
+		"start": "10:00+06:00"
 	}
 ```
