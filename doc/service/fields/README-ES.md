@@ -7,12 +7,12 @@ Los tipos son:
 
 * [ARRAY](type/ARRAY-ES.md)
 * [BOOLEAN](type/BOOLEAN-ES.md)
-* DATE
-* DATETIME
+* [DATE](type/DATE-ES.md)
+* [DATETIME](type/DATETIME-ES.md)
 * DYNAMIC_DATE
 * [FLOAT](type/FLOAT-ES.md)
 * [INTEGER](type/INTEGER-ES.md)
 * [STRING](type/STRING-ES.md)
 * [STRUCTURE](type/STRUCTURE-ES.md)
 * STRUCTURE_ARRAY
-* TIME
+* [TIME](type/TIME-ES.md)
