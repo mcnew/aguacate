@@ -64,7 +64,7 @@ Requisito: Se requiere enviar/recibir una fecha __date__ entre 1 de enero del 20
 Estructura
 ```json
 	"date": {
-		"type": "date",
+		"type": "DATE",
 		"minval": "2000-01-01",
 		"maxval": "2019-12-31",
 		"input": {
