@@ -2,7 +2,7 @@
 # Tipo Entero
 
 ## Definición
-* Tipo: Integer
+* Tipo: Entero
 * Identificador de tipo: INTEGER
 * Descripción: Analiza y valida un valor entero (con o sin signo)
 * Atributos:
