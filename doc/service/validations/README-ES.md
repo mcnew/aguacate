@@ -6,7 +6,7 @@ Los tipos son:
 * CONDITIONAL
 * CONSTANT
 * COPY
-* EQ
+* [EQ](type/EQ-ES.md)
 * FROM_JSON
 * GT
 * GT_TODAY
