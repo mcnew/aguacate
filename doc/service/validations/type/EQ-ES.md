@@ -31,9 +31,9 @@ Estructura
 Estructura
 ```json
 	{
-		"name": COMPARACION_ALPHA_BETA",
+		"name": "ALPHA_IGUAL_QUE_BETA",
 		"type": "EQ",
-		"message": "Comparación entre {0} y {1}",
+		"message": "{0} igual a {1}",
 		"parameters": [
 			"alpha",
 			"beta"
