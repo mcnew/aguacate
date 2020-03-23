@@ -1,4 +1,4 @@
-[EN](GT.md)
+[EN](LT.md)
 # Comparador "menor que"
 
 ## Definición
