@@ -12,6 +12,8 @@ validaciones:
 * [NOT_ZERO](type/NOT_ZERO-ES.md)
 * [ZERO](type/ZERO-ES.md)
 
+otros:
+
 * APPLY
 * BASE64_DECODE
 * CONDITIONAL
