@@ -29,7 +29,7 @@ Estructura
 ```
 ## Ejemplo
 
-Requisito: Validar que alpha es menor que beta (`alpha < beta`)
+Requisito: Validar que `alpha` es menor que `beta` (`alpha < beta`)
 
 Estructura
 ```json
