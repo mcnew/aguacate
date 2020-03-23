@@ -8,11 +8,11 @@ Los tipos son:
 * COPY
 * [EQ](type/EQ-ES.md)
 * FROM_JSON
-* GT
+* [GT](type/GT-ES.md)
 * GT_TODAY
-* LT
-* NE
-* NOT_ZERO
+* [LT](type/LT-ES.md)
+* [NE](type/NE-ES.md)
+* [NOT_ZERO](type/NOT_ZERO-ES.md)
 * REN
 * SCRIPT
 * SELECT_SINGLE
@@ -21,4 +21,4 @@ Los tipos son:
 * SQL_COUNT_ZERO
 * STRUCTURE_ARRAY_ITERATOR
 * TO_JSON
-* ZERO
+* [ZERO](type/ZERO-ES.md)
