@@ -36,7 +36,7 @@ Estructura
 	{
 		"name": "ALPHA_MENOR_QUE_BETA",
 		"type": "LT",
-		"message": "Validando que {0} es menor que {1}",
+		"message": "Validando {0} menor que {1}",
 		"parameters": [
 			"alpha",
 			"beta"
