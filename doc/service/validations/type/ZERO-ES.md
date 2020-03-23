@@ -1,4 +1,4 @@
-[EN](EQ.md)
+[EN](ZERO.md)
 # Comparador "es cero"
 
 ## Definición
