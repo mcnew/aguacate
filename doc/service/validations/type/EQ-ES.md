@@ -29,12 +29,14 @@ Estructura
 ```
 ## Ejemplo
 
+Requisito: Validar que alpha es igua a beta (`alpha == beta`)
+
 Estructura
 ```json
 	{
 		"name": "ALPHA_IGUAL_QUE_BETA",
 		"type": "EQ",
-		"message": "{0} igual a {1}",
+		"message": "Validando que {0} es igual a {1}",
 		"parameters": [
 			"alpha",
 			"beta"
