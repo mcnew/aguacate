@@ -1,15 +1,16 @@
 [EN](EQ.md)
-# Tipo Comparador de igualdad
+# Comparador de igualdad
 
 ## Definición
 * Tipo: Comparador de igualdad
 * Identificador de tipo: EQ
 * Descripción: Valida que ambos parametros sean iguales.
+* Número de parámetros: 2
 * Atributos:
   * type: Siempre EQ
   * name: Nombre de la validación
   * message: El mensaje de la validación
-  * parameters: Lista ordenada de parametros
+  * parameters: Parametros
   * methods: Métodos en los que aplica la validación.
 
 Estructura
