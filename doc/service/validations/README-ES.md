@@ -16,12 +16,16 @@ validaciones:
 
 transformación:
 
-* BASE64_DECODE
+* [BASE64_DECODE](BASE64_DECODE-ES.md)
+* [FROM_JSON](FROM_JSON-ES.md)
+* [TO_JSON](TO_JSON-ES.md)
+
+manipulación:
 * COPY
-* FROM_JSON
 * REN
+
+calculo:
 * SHA256
-* TO_JSON
 
 otros:
 
