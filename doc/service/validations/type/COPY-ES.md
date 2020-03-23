@@ -18,8 +18,8 @@
   * type: Siempre COPY
   * name: Nombre de la operación
   * message: El mensaje de la operación
-  * outputName: (_Opcional_) Nombre destino del resultado
-  * outputContext: Nombre del contexto donde se almacenará el resultado
+  * outputName: Nombre destino del resultado
+  * outputContext: (_Opcional_) Nombre del contexto donde se almacenará el resultado
   * parameters: Parametros
   * methods: Métodos en los que aplica la validación.
 
