@@ -21,19 +21,21 @@ transformación:
 * [TO_JSON](type/TO_JSON-ES.md)
 
 manipulación:
-* COPY
-* REN
+* [COPY](COPY-ES.md)
+* [REN](REN-ES.md)
 
 calculo:
-* SHA256
+* [CONSTANT](CONSTANT-ES.md)
+* [SHA256](SHA256-ES.md)
+
+control:
+* CONDITIONAL
+* STRUCTURE_ARRAY_ITERATOR
 
 otros:
 
 * APPLY
-* CONDITIONAL
-* CONSTANT
 * SCRIPT
 * SELECT_SINGLE
 * SQL_COUNT_NOT_ZERO
 * SQL_COUNT_ZERO
-* STRUCTURE_ARRAY_ITERATOR
