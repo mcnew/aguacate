@@ -1,15 +1,16 @@
 [EN](GT.md)
-# Tipo Comparador mayor que
+# Comparador "mayor que"
 
 ## Definición
-* Tipo: Comparador mayor que
+* Tipo: Comparador "mayor que"
 * Identificador de tipo: GT
 * Descripción: Valida que el primer parametro sea mayor estrictamente que el segundo parametro.
+* Número de parámetros: 2
 * Atributos:
   * type: Siempre GT
   * name: Nombre de la validación
   * message: El mensaje de la validación
-  * parameters: Lista de parametros
+  * parameters: Parametros
   * methods: Métodos en los que aplica la validación.
 
 Estructura
