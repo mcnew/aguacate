@@ -36,7 +36,7 @@ Estructura
 	{
 		"name": "ALPHA_IGUAL_QUE_BETA",
 		"type": "EQ",
-		"message": "Validando que {0} es igual a {1}",
+		"message": "Validando {0} es igual a {1}",
 		"parameters": [
 			"alpha",
 			"beta"
