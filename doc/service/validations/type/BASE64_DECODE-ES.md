@@ -11,7 +11,7 @@
 * Atributos:
   * type: Siempre BASE64_DECODE
   * name: Nombre de la operación
-  * message: El mensaje de la validación
+  * message: El mensaje de la operación
   * outputName: (_Opcional_) Nombre destino del resultado
   * outputContext: Nombre del contexto donde se almacenará el resultado
   * parameters: Parametros
