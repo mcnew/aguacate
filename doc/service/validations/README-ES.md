@@ -16,9 +16,9 @@ validaciones:
 
 transformación:
 
-* [BASE64_DECODE](BASE64_DECODE-ES.md)
-* [FROM_JSON](FROM_JSON-ES.md)
-* [TO_JSON](TO_JSON-ES.md)
+* [BASE64_DECODE](type/BASE64_DECODE-ES.md)
+* [FROM_JSON](type/FROM_JSON-ES.md)
+* [TO_JSON](type/TO_JSON-ES.md)
 
 manipulación:
 * COPY
