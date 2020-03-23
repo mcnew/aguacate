@@ -29,14 +29,14 @@ Estructura
 ```
 ## Ejemplo
 
-Requisito: Validiar que alpha es mayor que beta (`alpha > beta`)
+Requisito: Validar que alpha es mayor que beta (`alpha > beta`)
 
 Estructura
 ```json
 	{
 		"name": "ALPHA_MAYOR_QUE_BETA",
 		"type": "GT",
-		"message": "Validando que {0} es mayor que {1}",
+		"message": "Validando {0} es mayor que {1}",
 		"parameters": [
 			"alpha",
 			"beta"
