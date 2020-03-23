@@ -21,12 +21,12 @@ transformación:
 * [TO_JSON](type/TO_JSON-ES.md)
 
 manipulación:
-* [COPY](COPY-ES.md)
-* [REN](REN-ES.md)
+* [COPY](type/COPY-ES.md)
+* [REN](type/REN-ES.md)
 
 calculo:
-* [CONSTANT](CONSTANT-ES.md)
-* [SHA256](SHA256-ES.md)
+* [CONSTANT](type/CONSTANT-ES.md)
+* [SHA256](type/SHA256-ES.md)
 
 control:
 * CONDITIONAL
