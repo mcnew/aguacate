@@ -7,7 +7,6 @@
 * Descripción: Valida que el primer parametro sea mayor estrictamente que el segundo parametro.
 * Número de parámetros: 2
 * Tipos de datos aceptados:
-  * BOOLEAN
   * DATE
   * DATETIME
   * FLOAT
