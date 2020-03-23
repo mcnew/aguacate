@@ -6,6 +6,9 @@
 * Identificador de tipo: ZERO
 * Descripción: Valida que el único parámetro es zero.
 * Número de parámetros: 1
+* Tipos de datos aceptados:
+  * FLOAT
+  * INTEGER
 * Atributos:
   * type: Siempre ZERO
   * name: Nombre de la validación
