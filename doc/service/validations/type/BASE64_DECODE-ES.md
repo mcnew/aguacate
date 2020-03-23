@@ -2,7 +2,7 @@
 # Conversor de "base 64"
 
 ## Definición
-* Tipo: Conversor de "baseE 64"
+* Tipo: Conversor de "base 64"
 * Identificador de tipo: BASE64_DECODE
 * Descripción: Decodifica una cadena en base64.
 * Número de parámetros: 1
