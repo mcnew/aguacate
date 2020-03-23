@@ -7,7 +7,6 @@ validaciones:
 * [EQ](type/EQ-ES.md)
 * [GE](type/GE-ES.md)
 * [GT](type/GT-ES.md)
-* GT_TODAY
 * [LE](type/LE-ES.md)
 * [LT](type/LT-ES.md)
 * [NE](type/NE-ES.md)
