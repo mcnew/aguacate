@@ -6,6 +6,14 @@
 * Identificador de tipo: NE
 * Descripción: Valida que ambos parametros no sean iguales.
 * Número de parámetros: 2
+* Tipos de datos aceptados:
+  * BOOLEAN
+  * DATE
+  * DATETIME
+  * FLOAT
+  * INTEGER
+  * STRING
+  * TIME
 * Atributos:
   * type: Siempre NE
   * name: Nombre de la validación
