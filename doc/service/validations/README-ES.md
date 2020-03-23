@@ -1,18 +1,23 @@
 [EN](README.md)
 
 Los tipos son:
-* APPLY
-* BASE64_DECODE
-* CONDITIONAL
-* CONSTANT
-* COPY
+
+validaciones:
+
 * [EQ](type/EQ-ES.md)
-* FROM_JSON
 * [GT](type/GT-ES.md)
 * GT_TODAY
 * [LT](type/LT-ES.md)
 * [NE](type/NE-ES.md)
 * [NOT_ZERO](type/NOT_ZERO-ES.md)
+* [ZERO](type/ZERO-ES.md)
+
+* APPLY
+* BASE64_DECODE
+* CONDITIONAL
+* CONSTANT
+* COPY
+* FROM_JSON
 * REN
 * SCRIPT
 * SELECT_SINGLE
@@ -21,4 +26,3 @@ Los tipos son:
 * SQL_COUNT_ZERO
 * STRUCTURE_ARRAY_ITERATOR
 * TO_JSON
-* [ZERO](type/ZERO-ES.md)
