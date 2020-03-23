@@ -6,6 +6,14 @@
 * Identificador de tipo: LT
 * Descripción: Valida que el primer parametro sea menor estrictamente que el segundo parametro.
 * Número de parámetros: 2
+* Tipos de datos aceptados:
+  * BOOLEAN
+  * DATE
+  * DATETIME
+  * FLOAT
+  * INTEGER
+  * STRING
+  * TIME
 * Atributos:
   * type: Siempre LT
   * name: Nombre de la validación
