@@ -16,9 +16,9 @@
   * name: Nombre de la operación
   * message: El mensaje de la operación
   * outputName: Nombre destino del resultado
-  * outputContext: (_Opcional_) Nombre del contexto donde se almacenará el resultado
+  * outputContext: (_Opcional_) Contexto donde se almacenará el resultado
   * parameters: Parametros
-  * methods: Métodos en los que aplica la validación.
+  * methods: Métodos en los que aplica la operación.
 
 Estructura
 ```json
@@ -38,16 +38,16 @@ Estructura
 ```
 ## Ejemplo
 
-Requisito: Duplicar el valor de `original` en `nuevo`.
+Requisito: Definir `message` con el valor "Hola mundo".
 
 Estructura
 ```json
 	{
-		"name": "DUPLICANDO_VALOR",
+		"name": "INSERTANDO_CONTANTE",
 		"type": "CONSTANT",
-		"message": "duplicando {0}",
-		"outputName": "nuevo",
-		"value": "",
+		"message": "Insertando contante",
+		"outputName": "message",
+		"value": "Hola mundo",
 		"methods": [
 			"PUT"
 		]
