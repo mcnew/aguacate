@@ -6,6 +6,14 @@
 * Identificador de tipo: EQ
 * Descripción: Valida que ambos parametros sean iguales.
 * Número de parámetros: 2
+* Tipos de datos aceptados:
+  * BOOLEAN
+  * DATE
+  * DATETIME
+  * FLOAT
+  * INTEGER
+  * STRING
+  * TIME
 * Atributos:
   * type: Siempre EQ
   * name: Nombre de la validación
