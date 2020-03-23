@@ -12,7 +12,7 @@
   * type: Siempre BASE64_DECODE
   * name: Nombre de la operación
   * message: El mensaje de la validación
-  * outputName: (Opcional) Nombre destino del resultado
+  * outputName: (_Opcional_) Nombre destino del resultado
   * outputContext: Nombre del contexto donde se almacenará el resultado
   * parameters: Parametros
   * methods: Métodos en los que aplica la validación.
