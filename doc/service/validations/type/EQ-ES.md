@@ -1,8 +1,8 @@
 [EN](EQ.md)
-# Comparador de igualdad
+# Comparador "igual"
 
 ## Definición
-* Tipo: Comparador de igualdad
+* Tipo: Comparador "igual"
 * Identificador de tipo: EQ
 * Descripción: Valida que ambos parametros sean iguales.
 * Número de parámetros: 2
