@@ -44,9 +44,9 @@ Requisito: Definir `message` con el valor "Hola mundo".
 Estructura
 ```json
 	{
-		"name": "INSERTANDO_CONTANTE",
+		"name": "INSERTANDO_CONSTANTE",
 		"type": "CONSTANT",
-		"message": "Insertando contante",
+		"message": "Insertando constante",
 		"outputName": "message",
 		"value": "Hola mundo",
 		"methods": [
