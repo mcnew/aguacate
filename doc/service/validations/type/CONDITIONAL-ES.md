@@ -51,9 +51,9 @@ Requisito: Validar que `alpha` es no es null
 Estructura
 ```json
 	{
-		"name": "INSERTANDO_CONTANTE",
+		"name": "ALPHA_NO_NULO",
 		"type": "CONDITIONAL",
-		"message": "Insertando contante",
+		"message": "Validando que alpha no sea null",
 		"test": "NOT_NULL",
 		"parameters": [
 			"alpha"
