@@ -28,9 +28,9 @@ calculo:
 * [CONSTANT](type/CONSTANT-ES.md)
 * [SHA256](type/SHA256-ES.md)
 
-control:
-* CONDITIONAL
-* STRUCTURE_ARRAY_ITERATOR
+control de flujo:
+* [CONDITIONAL](type/CONDITIONAL-ES.md)
+* [STRUCTURE_ARRAY_ITERATOR](type/STRUCTURE_ARRAY_ITERATOR-ES.md)
 
 otros:
 
