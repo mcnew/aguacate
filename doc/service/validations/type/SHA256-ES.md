@@ -1,16 +1,15 @@
 [EN](SHA256.md)
-# Conversor a "JSON"
+# Calculador de "sha-256"
 
 ## Definición
-* Tipo: Conversor a "JSON"
-* Identificador de tipo: TO_JSON
-* Descripción: Codifica a JSON.
+* Tipo: Calculador de "sha-256"
+* Identificador de tipo: SHA256
+* Descripción: Calcula el hash sha-256 de un binario.
 * Número de parámetros: 1
 * Tipos de datos aceptados de los parametros:
-  * CONTEXT
-  * ARRAY
+  * BINARY
 * Atributos:
-  * type: Siempre TO_JSON
+  * type: Siempre SHA256
   * name: Nombre de la operación
   * message: El mensaje de la operación
   * outputName: Nombre destino del resultado
@@ -22,7 +21,7 @@ Estructura
 ```json
 	{
 		"name": "...",
-		"type": "TO_JSON",
+		"type": "SHA256",
 		"message": "...",
 		"outputName": "...",
 		"outputContext": [
@@ -38,20 +37,20 @@ Estructura
 ```
 ## Ejemplo
 
-Requisito: Convertir `data` en una cadena JSON.
+Requisito: Calcular el hash sha-256 de `data` de un binario.
 
 Estructura
 ```json
 	{
-		"name": "GENERANDO_JSON",
-		"type": "TO_JSON",
-		"message": "generando json",
-		"outputName": "json",
+		"name": "CALCULANDO_HASH",
+		"type": "SHA256",
+		"message": "calculando hash de data",
+		"outputName": "hash",
 		"parameters": [
 			"data"
 		],
 		"methods": [
-			"PUT"
+			"POST"
 		]
 	}
 ```
