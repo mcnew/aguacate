@@ -17,6 +17,7 @@
   * message: El mensaje de la operación
   * outputName: Nombre destino del resultado
   * outputContext: (_Opcional_) Contexto donde se almacenará el resultado
+  * value: Valor definido
   * parameters: Parametros
   * methods: Métodos en los que aplica la operación.
 
