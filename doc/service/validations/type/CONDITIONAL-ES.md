@@ -15,9 +15,7 @@
   * type: Siempre CONDITIONAL
   * name: Nombre de la operación
   * message: El mensaje de la operación
-  * outputName: Nombre destino del resultado
-  * outputContext: (_Opcional_) Contexto donde se almacenará el resultado
-  * value: Valor definido
+  * test: NOT_NULL, NULL, NULL_OR_EMPTY, NOT_NULL_AND_NOT_EMPTY
   * parameters: Parametros
   * methods: Métodos en los que aplica la operación.
 
@@ -27,11 +25,11 @@ Estructura
 		"name": "...",
 		"type": "CONDITIONAL",
 		"message": "...",
-		"outputName": "...",
-		"outputContext": [
+		"test": "...",
+		"value": "",
+		"parameters": [
 			"..."
 		],
-		"value": "",
 		"methods": [
 			"..."
 		]
