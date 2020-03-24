@@ -8,15 +8,19 @@
 * Número de parámetros: 1
 * Tipos de datos aceptados de los parametros:
   * BOOLEAN
+  * DATE
+  * DATETIME
   * FLOAT
   * INTEGER
   * STRING
+  * TIME
 * Atributos:
   * type: Siempre CONDITIONAL
   * name: Nombre de la operación
   * message: El mensaje de la operación
   * test: NOT_NULL, NULL, NULL_OR_EMPTY, NOT_NULL_AND_NOT_EMPTY
   * parameters: Parametros
+  * validations: Validaciones condicionadas a ejecutarse por test.
   * methods: Métodos en los que aplica la operación.
 
 Estructura
@@ -26,9 +30,14 @@ Estructura
 		"type": "CONDITIONAL",
 		"message": "...",
 		"test": "...",
-		"value": "",
 		"parameters": [
 			"..."
+		],
+		"validations": [
+			{
+				"name": "...",
+				"type": "..."
+			}
 		],
 		"methods": [
 			"..."
@@ -37,7 +46,7 @@ Estructura
 ```
 ## Ejemplo
 
-Requisito: Definir `message` con el valor "Hola mundo".
+Requisito: Validar que `alpha` es no es null
 
 Estructura
 ```json
@@ -45,10 +54,14 @@ Estructura
 		"name": "INSERTANDO_CONTANTE",
 		"type": "CONDITIONAL",
 		"message": "Insertando contante",
-		"outputName": "message",
-		"value": "Hola mundo",
+		"test": "NOT_NULL",
+		"parameters": [
+			"alpha"
+		],
+		"validations": [
+		],
 		"methods": [
-			"PUT"
+			"POST"
 		]
 	}
 ```
