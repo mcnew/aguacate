@@ -52,7 +52,7 @@ Estructura
 	{
 		"name": "CONSULTA_ESTADO",
 		"type": "SQL_SELECT_SINGLE",
-		"message": "Insertando constante",
+		"message": "Recuperando estado",
 		"outputName": "estado",
 		"sql": "SELECT estado FROM tabla1 WHERE id = ?",
 		"parameters": [
