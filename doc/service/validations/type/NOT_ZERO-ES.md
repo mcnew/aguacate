@@ -1,8 +1,8 @@
 [EN](NOT_ZERO.md)
-# Comparador "no es cero"
+# Validador "no es cero"
 
 ## Definición
-* Tipo: Comparador "no es cero"
+* Tipo: Validador "no es cero"
 * Identificador de tipo: NOT_ZERO
 * Descripción: Valida que el único parámetro no es zero.
 * Número de parámetros: 1
