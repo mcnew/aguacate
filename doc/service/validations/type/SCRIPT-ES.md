@@ -56,12 +56,12 @@ Estructura
 		"scriptName": "colores1",
 		"functionName": "updateCheckValidation",
 		"parameters": [
-				"original_active",
-				"description",
-				"date",
-				"starTime",
-				"endTime",
-				"active"
+			"original_active",
+			"description",
+			"date",
+			"starTime",
+			"endTime",
+			"active"
 		],
 		"methods": [
 			"PUT"
