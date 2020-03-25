@@ -46,7 +46,7 @@ Estructura
 	{
 		"name": "VALIDA_NO_EXISTE",
 		"type": "SQL_COUNT_NOT_ZERO",
-		"message": "Validando que no preexiste {0}",
+		"message": "Validando que {0} no preexiste",
 		"sql": "SELECT COUNT(*) FROM tabla1 WHERE name = ?",
 		"parameters": [
 			"name"
