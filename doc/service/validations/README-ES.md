@@ -35,7 +35,7 @@ control de flujo:
 otros:
 
 * APPLY
-* SCRIPT
+* [SCRIPT](type/SCRIPT-ES.md)
 * [SQL_SELECT_SINGLE](type/SQL_SELECT_SINGLE-ES.md)
 * [SQL_COUNT_NOT_ZERO](type/SQL_COUNT_NOT_ZERO-ES.md)
 * [SQL_COUNT_ZERO](type/SQL_COUNT_ZERO-ES.md)
