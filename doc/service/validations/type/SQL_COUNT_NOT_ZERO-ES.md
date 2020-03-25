@@ -39,7 +39,7 @@ Estructura
 ```
 ## Ejemplo
 
-Requisito: Recuperar la columna `estado` de la tabla `tabla1` utilizando la columna `id`
+Requisito: Validar que no preexiste un registro con el valor de `name` en `tabla1`.
 
 Estructura
 ```json
