@@ -24,7 +24,7 @@ Estructura
 ```
 ## Ejemplo
 
-Requisito: Recuperar la columna `estado` de la tabla `tabla1` utilizando la columna `id`
+Requisito: Iniciar una transacción.
 
 Estructura
 ```json
