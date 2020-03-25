@@ -3,7 +3,6 @@
 Los tipos son:
 
 validaciones:
-
 * [EQ](type/EQ-ES.md)
 * [GE](type/GE-ES.md)
 * [GT](type/GT-ES.md)
@@ -13,28 +12,31 @@ validaciones:
 * [NOT_ZERO](type/NOT_ZERO-ES.md)
 * [ZERO](type/ZERO-ES.md)
 
-transformación:
+validaciones SQL:
 
+* [SQL_COUNT_NOT_ZERO](type/SQL_COUNT_NOT_ZERO-ES.md)
+* [SQL_COUNT_ZERO](type/SQL_COUNT_ZERO-ES.md)
+
+transformación:
 * [BASE64_DECODE](type/BASE64_DECODE-ES.md)
 * [BASE64_ENCODE](type/BASE64_ENCODE-ES.md)
 * [FROM_JSON](type/FROM_JSON-ES.md)
 * [TO_JSON](type/TO_JSON-ES.md)
 
 manipulación:
+* [CONSTANT](type/CONSTANT-ES.md)
 * [COPY](type/COPY-ES.md)
 * [REN](type/REN-ES.md)
 
+manipulación SQL:
+* [SQL_SELECT_SINGLE](type/SQL_SELECT_SINGLE-ES.md)
+
 calculo:
-* [CONSTANT](type/CONSTANT-ES.md)
 * [SHA256](type/SHA256-ES.md)
 
 control de flujo:
 * [CONDITIONAL](type/CONDITIONAL-ES.md)
 * [STRUCTURE_ARRAY_ITERATOR](type/STRUCTURE_ARRAY_ITERATOR-ES.md)
 
-otros:
-
+miscelaneo:
 * [SCRIPT](type/SCRIPT-ES.md)
-* [SQL_SELECT_SINGLE](type/SQL_SELECT_SINGLE-ES.md)
-* [SQL_COUNT_NOT_ZERO](type/SQL_COUNT_NOT_ZERO-ES.md)
-* [SQL_COUNT_ZERO](type/SQL_COUNT_ZERO-ES.md)
