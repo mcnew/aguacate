@@ -5,7 +5,7 @@
 * Tipo: Recupera de base de datos
 * Identificador de tipo: SQL_SELECT_SINGLE
 * Descripción: Recupera un único campo de base de datos
-* Número de parámetros: 1
+* Número de parámetros: 1..N
 * Tipos de datos aceptados de los parametros:
   * BOOLEAN
   * DATE
