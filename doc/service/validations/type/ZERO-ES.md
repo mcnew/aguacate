@@ -1,8 +1,8 @@
 [EN](ZERO.md)
-# Comparador "es cero"
+# Validador "es cero"
 
 ## Definición
-* Tipo: Comparador "es cero"
+* Tipo: Validador "es cero"
 * Identificador de tipo: ZERO
 * Descripción: Valida que el único parámetro es zero.
 * Número de parámetros: 1
