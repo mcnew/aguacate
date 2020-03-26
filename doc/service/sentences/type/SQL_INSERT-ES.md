@@ -34,17 +34,18 @@ Estructura
 ```
 ## Ejemplo
 
-Requisito: Inserta un registro en la tabla table1, dados los campos alpha y beta.
+Requisito: Ingresa un registro en la tabla table1, dados los campos alpha y beta.
 
 Estructura
 ```json
 	{
-		"name": "INICIA_TRANSACCION",
+		"name": "INGRESAR_NUEVO",
 		"type": "SQL_INSERT",
-		"message": "Iniciando la transacción",
-		"sql": "DELETE table1 WHERE name = ?",
+		"message": "Ingresando nuevo registro",
+		"sql": "INSERT INTO table1(alpha, beta) VALUES(?, ?)",
 		"required": [
-			"name"
+			"alpha",
+			"beta"
 		],
 		"optional": [
 		],
