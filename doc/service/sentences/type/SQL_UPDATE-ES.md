@@ -1,0 +1,56 @@
+[EN](SQL_UPDATE.md)
+# Ejecuta una sentencia update SQL.
+
+## Definición
+* Tipo: Ejecuta una sentencia update SQL.
+* Identificador de tipo: SQL_UPDATE
+* Descripción: Ejecuta una sentencia update SQL.
+* Atributos:
+  * type: Siempre SQL_UPDATE
+  * name: Nombre de la operación
+  * sql: La sentencia SQL
+  * required: Parametros requeridos.
+  * optional: Parametros opcionales.
+  * message: El mensaje de la operación
+  * methods: Métodos en los que aplica la operación.
+
+Estructura
+```json
+	{
+		"name": "...",
+		"type": "SQL_UPDATE",
+		"message": "...",
+		"sql": "...",
+		"required": [
+			"..."
+		],
+		"optional": [
+			"..."
+		],
+		"methods": [
+			"..."
+		]
+	}
+```
+## Ejemplo
+
+Requisito: actualizar el campo `alpha` del registro identificadon con el `id` dado en la tabla `table1`.
+
+Estructura
+```json
+	{
+		"name": "ACTUALIZAR_REGISTRO",
+		"type": "SQL_UPDATE",
+		"message": "Actualizando registro {0}",
+		"sql": "UPDATE table1 SET alpha = ? WHERE id = ?",
+		"required": [
+			"id"
+		],
+		"optional": [
+			"alpha"
+		],
+		"methods": [
+			"PUT"
+		]
+	}
+```
