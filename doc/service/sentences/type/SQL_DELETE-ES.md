@@ -50,7 +50,7 @@ Estructura
 		"name": "BORRAR_REGISTRO",
 		"type": "SQL_DELETE",
 		"message": "Borrando registro {0}",
-		"sql": "DELETE table1 WHERE name = ?",
+		"sql": "DELETE FROM table1 WHERE name = ?",
 		"required": [
 			"name"
 		],
