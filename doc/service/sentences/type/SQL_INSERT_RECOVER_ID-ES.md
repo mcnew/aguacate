@@ -19,7 +19,8 @@
   * message: El mensaje de la operación
   * outputName: Nombre destino del resultado
   * outputContext: (_Opcional_) Contexto donde se almacenará el resultado
-  * sql: La sentencia SQL 
+  * sql: La sentencia SQL.
+  * column: La columna del id a recuperar
   * required: Parametros requeridos.
   * optional: Parametros opcionales.
   * methods: Métodos en los que aplica la operación.
@@ -35,6 +36,7 @@ Estructura
 			"..."
 		],
 		"sql": "...",
+		"column": "...",
 		"required": [
 			"..."
 		],
@@ -59,6 +61,7 @@ Estructura
 		"message": "Ingresando nuevo registro",
 		"outputName": "newid",
 		"sql": "INSERT INTO table1(alpha, beta) VALUES(?, ?)",
+		"column": "id",
 		"required": [
 			"alpha",
 			"beta"
