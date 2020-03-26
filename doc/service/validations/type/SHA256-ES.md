@@ -54,3 +54,5 @@ Estructura
 		]
 	}
 ```
+
+Al ejecutarse la operación se crea la variable `hash` cuyo valor sera una cadena de 64 caracteres representan el hash256 en de `data` en hexadecimal
