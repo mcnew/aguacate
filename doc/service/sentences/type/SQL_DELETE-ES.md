@@ -9,8 +9,8 @@
   * type: Siempre SQL_DELETE
   * name: Nombre de la operación
   * sql: La sentencia SQL 
-  * required:
-  * optional:
+  * required: Parametros requeridos.
+  * optional: Parametros opcionales.
   * message: El mensaje de la operación
   * methods: Métodos en los que aplica la operación.
 
