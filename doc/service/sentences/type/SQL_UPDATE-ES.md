@@ -5,6 +5,14 @@
 * Tipo: Ejecuta una sentencia update SQL.
 * Identificador de tipo: SQL_UPDATE
 * Descripción: Ejecuta una sentencia update SQL.
+* Tipos de datos aceptados de los parametros:
+  * BOOLEAN
+  * DATE
+  * DATETIME
+  * FLOAT
+  * INTEGER
+  * STRING
+  * TIME
 * Atributos:
   * type: Siempre SQL_UPDATE
   * name: Nombre de la operación
