@@ -5,6 +5,14 @@
 * Tipo: Ejecuta una sentencia delete SQL.
 * Identificador de tipo: SQL_DELETE
 * Descripción: Ejecuta una sentencia delete SQL.
+* Tipos de datos aceptados de los parametros:
+  * BOOLEAN
+  * DATE
+  * DATETIME
+  * FLOAT
+  * INTEGER
+  * STRING
+  * TIME
 * Atributos:
   * type: Siempre SQL_DELETE
   * name: Nombre de la operación
