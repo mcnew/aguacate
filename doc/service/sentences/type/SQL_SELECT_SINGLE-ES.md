@@ -17,7 +17,9 @@
   * type: Siempre SQL_SELECT_SINGLE
   * name: Nombre de la operación
   * message: El mensaje de la operación
-  * sql: La sentencia SQL 
+  * outputName: Nombre destino del resultado
+  * outputContext: (_Opcional_) Contexto donde se almacenará el resultado
+  * sql: La sentencia SQL a ejecutar
   * required: Parametros requeridos.
   * optional: Parametros opcionales.
   * methods: Métodos en los que aplica la operación.
