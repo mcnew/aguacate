@@ -42,7 +42,7 @@ Estructura
 ```
 ## Ejemplo
 
-Requisito: Ingresa un registro en la tabla table1, dados los campos alpha y beta.
+Requisito: Ingresa un registro en la tabla `table1`, dados los campos `alpha` y `beta`.
 
 Estructura
 ```json
