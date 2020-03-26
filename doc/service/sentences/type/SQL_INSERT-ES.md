@@ -5,6 +5,14 @@
 * Tipo: Ejecuta una sentencia insert SQL.
 * Identificador de tipo: SQL_INSERT
 * Descripción: Ejecuta una sentencia insert SQL.
+* Tipos de datos aceptados de los parametros:
+  * BOOLEAN
+  * DATE
+  * DATETIME
+  * FLOAT
+  * INTEGER
+  * STRING
+  * TIME
 * Atributos:
   * type: Siempre SQL_INSERT
   * name: Nombre de la operación
