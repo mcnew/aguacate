@@ -30,6 +30,10 @@ Estructura
 		"name": "...",
 		"type": "SQL_SELECT_SINGLE",
 		"message": "...",
+		"outputName": "...",
+		"outputContext": [
+			"..."
+		],
 		"sql": "...",
 		"required": [
 			"..."
