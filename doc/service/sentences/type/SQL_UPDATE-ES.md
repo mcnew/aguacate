@@ -16,10 +16,10 @@
 * Atributos:
   * type: Siempre SQL_UPDATE
   * name: Nombre de la operación
+  * message: El mensaje de la operación
   * sql: La sentencia SQL
   * required: Parametros requeridos.
   * optional: Parametros opcionales.
-  * message: El mensaje de la operación
   * methods: Métodos en los que aplica la operación.
 
 Estructura
