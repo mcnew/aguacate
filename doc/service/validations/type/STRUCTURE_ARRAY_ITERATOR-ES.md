@@ -2,9 +2,9 @@
 # Iterador de arreglo de estructuras
 
 ## Definición
-* Tipo: Condiciónal
+* Tipo: Iterador de arreglo de estructuras
 * Identificador de tipo: STRUCTURE_ARRAY_ITERATOR
-* Descripción: Iterador de arreglo de estructuras
+* Descripción: Itera sobre un arreglo de estructuras
 * Número de parámetros: 1
 * Tipos de datos aceptados de los parametros:
   * STRUCTURE_ARRAY
@@ -13,7 +13,7 @@
   * name: Nombre de la operación
   * message: El mensaje de la operación
   * parameters: Parametros
-  * validations: Validaciones condicionadas a ejecutarse por test.
+  * validations: Validaciones anidadas, a ejecutarse por cada elemento
   * methods: Métodos en los que aplica la operación.
 
 Estructura
@@ -38,7 +38,7 @@ Estructura
 ```
 ## Ejemplo
 
-Requisito: Ejecutar un conjunto de validaciones sobre alpha, que es un STRUCTURE_ARRAY.
+Requisito: Ejecutar un conjunto de validaciones sobre cada elemento de alpha, que es un STRUCTURE_ARRAY.
 
 Estructura
 ```json
