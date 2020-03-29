@@ -20,12 +20,13 @@ validaciones SQL:
 transformación:
 * [BASE64_DECODE](type/BASE64_DECODE-ES.md)
 * [BASE64_ENCODE](type/BASE64_ENCODE-ES.md)
-* [FROM_JSON](type/FROM_JSON-ES.md)
-* [TO_JSON](type/TO_JSON-ES.md)
+* [JSON_DECODE](type/JSON_DECODE-ES.md)
+* [JSON_ENCODE](type/JSON_ENCODE-ES.md)
 
 manipulación:
-* [CONSTANT](type/CONSTANT-ES.md)
 * [COPY](type/COPY-ES.md)
+* [LITERAL_INTEGER](type/LITERAL_INTEGER-ES.md)
+* [LITERAL_STRING](type/LITERAL_STRING-ES.md)
 * [REN](type/REN-ES.md)
 
 manipulación SQL:
