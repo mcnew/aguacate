@@ -30,16 +30,15 @@ Estructura
 ```
 ## Formato:
 * Formato configuración:
-  Los números enteros pueden estar entre comillas, es decir, como cadenas o como numero json.
+  Los números enteros pueden estar entre comillas, es decir cadenas.
 
   Ejemplos:
   ```text
-	23712
 	"8426"
 	"-76094"
   ```
 * Formato de entrada-salida:
-  Los números enteros pueden estar entre comillas, es decir, como cadenas o como numero json.
+  Los números enteros pueden estar entre comillas, es decir cadenas o número json.
 
   Ejemplos:
   ```text
