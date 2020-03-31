@@ -1,5 +1,6 @@
 [EN](README.md)
 # Archivo de configuración de servicio
+En este archivo se definen los campos de entrada/salida que conforman el servicio, asi como las validaciones requeridas para el almacenamiento de la información.
 
 ## Estructura
 ```json
