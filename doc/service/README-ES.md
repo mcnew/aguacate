@@ -11,10 +11,21 @@
 	"primary": "id",
 	"datasource": "laser",
 	"fields": {
+		"name": {
+			"type": "..."
+		}
 	},
 	"validations": [
+		{
+			"name": "...",
+			"type": "..."
+		}
 	],
 	"sentences": [
+		{
+			"name": "...",
+			"type": "..."
+		}
 	]
 }
 ```
