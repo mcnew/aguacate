@@ -9,11 +9,16 @@ El flujo de es el siguiente:
 3. Se ejecutan las validaciones definidas en la sección validations en el orden listado y filtradas el verbo http dado.
 4. Se ejecutan las sentencias definidas en la sección validations en el orden listado y filtradas el verbo http dado.
 
-|req|after fields|
-|-----|-----|
-|alpha||
-|beta|beta|
-|iota|iota|
+|parámetros recibídos|requeridos|validaciones|sentencias|
+|-----|-----|-----|-----|
+|alpha||||
+|beta|beta|beta|beta|
+|gamma||gamma||
+|delta||||
+|epsilon||||
+|dseta|dseta|dseta|dseta|
+|||eta|eta|
+|zeta||zeta|zeta|
 
 ## Estructura
 ```json
