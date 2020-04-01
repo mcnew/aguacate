@@ -2,6 +2,13 @@
 # Archivo de configuración de servicio
 En este archivo se definen los campos de entrada/salida que conforman el servicio, asi como las validaciones requeridas para el almacenamiento de la información.
 
+El flujo de es el siguiente:
+
+1. Se validan los parametros de entrada en base a los campos definidos en la sección fields y el verbo http (HTTP method).
+2. Se construye un contexto con los valores que pasaron las validaciones basicas.
+3. Se ejecutan las validaciones definidas en la sección validations en el orden listado y filtradas el verbo http dado.
+4. Se ejecutan las sentencias definidas en la sección validations en el orden listado y filtradas el verbo http dado.
+
 ## Estructura
 ```json
 {
