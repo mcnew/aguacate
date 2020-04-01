@@ -67,7 +67,7 @@ En validaciones y sentencias se pueden crear nuevas variables (`alpha`, `gamma`,
   }
   ```
 - primary: Nombre de la llave primaria, actualmente soporta un solo campo. Y debe ser un elemto existente en fields.
-- datasource: El nombre de la fuente de datos (see datasource)
+- [datasource](../datasource/README-ES.md): El nombre de la fuente de datos (see datasource)
 - [fields](fields/README-ES.md): Objeto con la definición de los campos de entrada/salida
 - [validations](validations/README-ES.md): Listado de validaciones adicionales a ejecutar.
 - [sentences](sentences/README-ES.md): Listado de sentencias para el almacenamiento de la información.
