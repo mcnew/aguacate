@@ -13,7 +13,9 @@ Por ejemplo:
 
 Se tiene un servicio que recibe solo 3 parámetros, beta, epsilon y dseta.
 
-Si embargo, se reciben 7 parámetros, algunos incluso con nombres de variables de uso interno (`alpha`, `gama` y `zeta`)
+Se reciben 7 parámetros, algunos con nombres de variables de uso interno (`alpha`, `gama` y `zeta`). Dichos parametros se descartan al no estar configurados y tanto las validaciones como las sentencias, no trabajen con valores inyectados.
+
+En validaciones y sentencias se pueden crear nuevas variables (`alpha`, `gamma`, `eta` y `zeta`), requeridas para el functionamiento interno.
 
 |recibídos|requeridos|validaciones|sentencias|
 |:---:|:---:|:---:|:---:|
