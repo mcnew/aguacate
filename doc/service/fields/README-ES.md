@@ -1,10 +1,28 @@
 [EN](README.md)
 # Sección Fields
 
-Esta sección lista y describe los campos de entrada y salida del servicio.
+En esta sección se definen los campos de entrada y salida del servicio. Puede estar formada por 1 o varios campos de entrada/salida. Los nombres de los campos son la llave y la definición el valor dentro del objeto `fields`.
 
-Los tipos son:
+## Estructura
+```json
+{
+	"fields": {
+		"...": {
+			"type": "...",
+			"input": {
+				"...": {
+					"mandatory": true
+				}
+			},
+			"output": [
+				"..."
+			]
+		}
+	}
+}
+```
 
+Los tipos de campo que pueden utilizarse son:
 * [ARRAY](type/ARRAY-ES.md)
 * [BOOLEAN](type/BOOLEAN-ES.md)
 * [DATE](type/DATE-ES.md)
@@ -16,3 +34,5 @@ Los tipos son:
 * [STRUCTURE](type/STRUCTURE-ES.md)
 * STRUCTURE_ARRAY
 * [TIME](type/TIME-ES.md)
+
+Los atributos y estructura requeridos varian dependiendo del tipo.
