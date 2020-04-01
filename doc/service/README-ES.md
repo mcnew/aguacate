@@ -40,7 +40,7 @@ En este archivo se definen los campos de entrada/salida que conforman el servici
   	"format": "1.0"
   }
   ```
-- primary: Nombre de la llave primaria, actualmente solo soporta 1 elemento.
+- primary: Nombre de la llave primaria, actualmente soporta un solo campo. Y debe ser un elemto existente en fields.
 - datasource: El nombre de la fuente de datos (see datasource)
 - fields: Objeto con la definición de los campos de entrada/salida
 - validations: Listado de validaciones adicionales a ejecutar.
