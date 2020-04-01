@@ -42,6 +42,6 @@ En este archivo se definen los campos de entrada/salida que conforman el servici
   ```
 - primary: Nombre de la llave primaria, actualmente soporta un solo campo. Y debe ser un elemto existente en fields.
 - datasource: El nombre de la fuente de datos (see datasource)
-- fields: Objeto con la definición de los campos de entrada/salida
-- validations: Listado de validaciones adicionales a ejecutar.
-- sentences: Listado de sentencias para el almacenamiento de la información.
+- [fields](fields/README-ES.md): Objeto con la definición de los campos de entrada/salida
+- [validations](validations/README-ES.md): Listado de validaciones adicionales a ejecutar.
+- [sentences](sentences/README-ES.md): Listado de sentencias para el almacenamiento de la información.
