@@ -36,3 +36,42 @@ Los tipos de campo que pueden utilizarse son:
 * [TIME](type/TIME-ES.md)
 
 Los atributos y estructura requeridos varian dependiendo del tipo.
+
+## Ejemplo
+
+```json
+	"fields": {
+		"id": {
+			"type": "INTEGER",
+			"minval": "1",
+			"maxval": "2147483647",
+			"input": {
+				"GET": {
+					"mandatory": true
+				},
+				"PATCH": {
+					"mandatory": true
+				}
+			},
+			"output": [
+				"GET",
+				"GET0"
+			]
+		},
+		"name": {
+			"type": "STRING",
+			"minlen": "2",
+			"maxlen": "10",
+			"regex": "^[a-zA-Z]+$",
+			"input": {
+				"PUT": {
+					"mandatory": true
+				}
+			},
+			"output": [
+				"GET",
+				"GET0"
+			]
+		}
+	}
+```
