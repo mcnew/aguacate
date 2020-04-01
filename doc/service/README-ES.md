@@ -9,13 +9,19 @@ El flujo de es el siguiente:
 3. Se ejecutan las validaciones definidas en la sección validations en el orden listado y filtradas el verbo http dado.
 4. Se ejecutan las sentencias definidas en la sección validations en el orden listado y filtradas el verbo http dado.
 
+Por ejemplo:
+
+Se tiene un servicio que recibe solo 3 parámetros, beta, epsilon y dseta.
+
+Si embargo, se reciben 7 parámetros, algunos incluso con nombres de variables de uso interno (`alpha`, `gama` y `zeta`)
+
 |recibídos|requeridos|validaciones|sentencias|
 |:---:|:---:|:---:|:---:|
 |**`alpha`**|||**`alpha`**|
 |beta|beta|beta|beta|
 |**`gamma`**||**`gamma`**||
 |delta||||
-|epsilon||||
+|epsilon|epsilon|epsilon||
 |dseta|dseta|dseta|dseta|
 |||eta|eta|
 |**`zeta`**||**`zeta`**|zeta|
