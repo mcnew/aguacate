@@ -11,14 +11,14 @@ El flujo de es el siguiente:
 
 |recibídos|requeridos|validaciones|sentencias|
 |:---:|:---:|:---:|:---:|
-|**alpha**|||**alpha**|
+|**`alpha`**|||**`alpha`**|
 |beta|beta|beta|beta|
-|**gamma**||**gamma**||
+|**`gamma`**||**`gamma`**||
 |delta||||
 |epsilon||||
 |dseta|dseta|dseta|dseta|
 |||eta|eta|
-|**zeta**||**zeta**|zeta|
+|**`zeta`**||**`zeta`**|zeta|
 
 ## Estructura
 ```json
