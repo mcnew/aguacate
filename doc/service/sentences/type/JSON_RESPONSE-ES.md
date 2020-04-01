@@ -12,7 +12,7 @@
   * type: Siempre JSON_RESPONSE
   * name: Nombre de la operación
   * required: Parametros requeridos.
-  * optional: (Ignored) Parametros opcionales.
+  * optional: (_Ignorado_) Parametros opcionales.
   * message: El mensaje de la operación
   * methods: Métodos en los que aplica la operación.
 
