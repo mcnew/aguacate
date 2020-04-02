@@ -1,7 +1,10 @@
 [EN](README.md)
+# Sección Validations
+En esta sección se reciben las variables validadas y convertidas a los tipos correspondientes de la sección [fields](../fields/README-ES.md).
 
-Los tipos son:
+Para validar los datos se pueden ejecutar comparaciones entre 2 variables, consultas a base de datos o ejecución de scripts. Si alguna validación falla, se genera una respuesta indicando la falla y un estado http 400.
 
+## Estructura
 validaciones:
 * [EQ](type/EQ-ES.md)
 * [GE](type/GE-ES.md)
@@ -41,3 +44,5 @@ control de flujo:
 
 miscelaneo:
 * [SCRIPT](type/SCRIPT-ES.md)
+
+## Ejemplo
