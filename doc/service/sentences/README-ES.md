@@ -1,5 +1,8 @@
 [ES](README.md)
+# Sección sentences
+Esta sección recibe los datos validados por la sección [validations](../validations/README-ES.md) y se ejecutan las sentencias de consulta, agregado, actualización y borrado requeridas por la lógica de negocio.
 
+## Estructura
 control:
 * [STRUCTURE_ARRAY_ITERATOR](type/STRUCTURE_ARRAY_ITERATOR-ES.md)
 * [CONTEXT](type/CONTEXT-ES.md)
@@ -19,3 +22,5 @@ sql:
 * [SQL_SELECT_LIST](type/SQL_SELECT_LIST-ES.md)
 * [SQL_UPDATE](type/SQL_UPDATE-ES.md)
 * [UPDATE](type/UPDATE-ES.md)
+
+## Ejemplo
