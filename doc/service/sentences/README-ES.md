@@ -3,6 +3,23 @@
 Esta sección recibe los datos validados por la sección [validations](../validations/README-ES.md) y se ejecutan las sentencias de consulta, agregado, actualización y borrado requeridas por la lógica de negocio.
 
 ## Estructura
+```json
+	"validations": [
+		{
+			"name": "...",
+			"type": "...",
+			"message": "...",
+			"parameters": [
+				"..."
+			],
+			"methods": [
+				"..."
+			]
+		}
+	]
+```
+Los atributos y estructura requeridos varian dependiendo del tipo. Los tipos de validaciones que pueden utilizarse son:
+
 control:
 * [STRUCTURE_ARRAY_ITERATOR](type/STRUCTURE_ARRAY_ITERATOR-ES.md)
 * [CONTEXT](type/CONTEXT-ES.md)
@@ -24,3 +41,20 @@ sql:
 * [UPDATE](type/UPDATE-ES.md)
 
 ## Ejemplo
+```json
+	"validations": [
+		{
+			"name": "SELECT_ACTIVE",
+			"message": "active selection",
+			"type": "SQL_SELECT_SINGLE",
+			"sql": "SELECT active FROM color WHERE id = ?",
+			"parameters": [
+				"id"
+			],
+			"outputName": "original_active",
+			"methods": [
+				"PATCH"
+			]
+		}
+	]
+```
