@@ -21,7 +21,7 @@ En esta sección se definen los campos de entrada y salida del servicio. Puede e
 }
 ```
 
-Los tipos de campo que pueden utilizarse son:
+Los atributos y estructura requeridos varian dependiendo del tipo. Los tipos de campo que pueden utilizarse son:
 * [ARRAY](type/ARRAY-ES.md)
 * [BOOLEAN](type/BOOLEAN-ES.md)
 * [DATE](type/DATE-ES.md)
@@ -33,8 +33,6 @@ Los tipos de campo que pueden utilizarse son:
 * [STRUCTURE](type/STRUCTURE-ES.md)
 * STRUCTURE_ARRAY
 * [TIME](type/TIME-ES.md)
-
-Los atributos y estructura requeridos varian dependiendo del tipo.
 
 ## Ejemplo
 ```json
