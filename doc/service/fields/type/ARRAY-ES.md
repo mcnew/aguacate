@@ -4,7 +4,7 @@
 ## Definición
 * Tipo: arreglo
 * Identificador de tipo: ARRAY
-* Description: Analiza y valida un arreglo de elementos del mismo tipo.
+* Descripción: Analiza y valida un arreglo de elementos del mismo tipo.
 * Atributos:
   * type: Siempre ARRAY
   * data: Definición del tipo de los elementos que conforman el arreglo.
