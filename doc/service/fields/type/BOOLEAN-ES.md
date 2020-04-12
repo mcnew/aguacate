@@ -7,8 +7,8 @@
 * Descripción: Analiza y valida un valor booleano
 * Atributos:
   * type: Siempre BOOLEAN
-  * input: Describre los metodos en los que se requiere.
-  * output: Lista los metodos en que es salida.
+  * input: Describre los métodos en los que se requiere.
+  * output: Lista los métodos en que es salida.
 
 Estructura
 ```json
