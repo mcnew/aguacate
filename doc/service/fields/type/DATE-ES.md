@@ -4,7 +4,7 @@
 ## Definición
 * Tipo: Fecha
 * Identificador de tipo: DATE
-* Description: Analiza y valida un valor fecha con zona horaria
+* Descripción: Analiza y valida un valor fecha con zona horaria
 * Atributos:
   * type: Siempre DATE
   * minval: El valor mínimo del campo.
