@@ -9,8 +9,8 @@
   * type: Siempre ARRAY
   * data: Definición del tipo de los elementos que conforman el arreglo.
   * unique: Indica si los elementos deben ser únicos.
-  * input: Describe los metodos en los que se requiere.
-  * output: Lista los metodos en que es salida.
+  * input: Describe los métodos en los que se requiere.
+  * output: Lista los métodos en que es salida.
 
 Estructura
 ```json
