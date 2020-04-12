@@ -4,7 +4,7 @@
 ## Definición
 * Tipo: Fecha con hora
 * Identificador de tipo: DATETIME
-* Description: Analiza y valida un valor fecha con hora y zona horaria
+* Descripción: Analiza y valida un valor fecha con hora y zona horaria
 * Atributos:
   * type: Siempre DATETIME
   * minval: El valor mínimo del campo.
