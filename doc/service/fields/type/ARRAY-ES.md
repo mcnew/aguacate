@@ -8,7 +8,7 @@
 * Atributos:
   * type: Siempre ARRAY
   * data: Definición del tipo de los elementos que conforman el arreglo.
-  * unique: Indica si los elementos deben ser unicos.
+  * unique: Indica si los elementos deben ser únicos.
   * input: Describre los metodos en los que se requiere.
   * output: Lista los metodos en que es salida.
 
