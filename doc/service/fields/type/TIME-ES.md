@@ -4,7 +4,7 @@
 ## Definición
 * Tipo: hora con minutos
 * Identificador de tipo: TIME
-* Description: Analiza y valida un valor que define hora, minutos y zona horaria
+* Descripción: Analiza y valida un valor que define hora, minutos y zona horaria
 * Atributos:
   * type: Siempre TIME
   * minval: El valor mínimo del campo.
