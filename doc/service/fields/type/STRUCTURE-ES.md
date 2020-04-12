@@ -4,7 +4,7 @@
 ## Definición
 * Tipo: Estructura (Objeto)
 * Identificador de tipo: STRUCTURE
-* Description: Analiza y valida un grupo de elementos, que representan un objeto
+* Descripción: Analiza y valida un grupo de elementos, que representan un objeto
 * Atributos:
   * type: Siempre STRUCTURE
   * data: Definición de los elementos que conforman el objeto.
