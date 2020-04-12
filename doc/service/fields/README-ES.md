@@ -1,6 +1,6 @@
 [EN](README.md)
 # Sección Fields
-En esta sección se definen los campos de entrada y salida del servicio. Puede estar formada por 1 o varios campos de entrada/salida. Los nombres de los campos son la llave y la definición el valor dentro del objeto `fields`.
+En esta sección se definen los campos de entrada y salida del servicio. Puede estar formada por uno o varios campos de entrada/salida. Los nombres de los campos son la llave y la definición el valor dentro del objeto `fields`.
 
 ## Estructura
 ```json
