@@ -5,7 +5,7 @@
 * Type: array
 * Type identifier: ARRAY
 * Description: Analyze and validate an array of elements of the same type.
-* attributes:
+* Attributes:
   * type: Always ARRAY
   * data: Definition of the type of inner elements.
   * unique: Indicates when the elements in the array must be unique.
