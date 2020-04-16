@@ -30,7 +30,7 @@ Estructura
 
 ```
 ## Formato:
-* Formato configuración:
+* Formato de configuración:
   * 2 digitos hora en formato 24 horas
   * el caracter dos puntos (:) como separador
   * 2 digitos minuto
@@ -55,8 +55,8 @@ Estructura
 
 ## Ejemplo
 
-Requisito: Se requiere enviar/recibir una hora listado de identificadores con valores enteros que va del 1 al 2,147,483,647.
-Con el nombre de atributo __ids__
+Requisito: Se requiere enviar/recibir una hora entre las 10:00 AM y las 3:00 PM
+Con el nombre de atributo __start__
 
 Estructura
 ```json
