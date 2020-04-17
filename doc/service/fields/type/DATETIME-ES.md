@@ -64,6 +64,7 @@ Estructura
   * 2 digitos segundo
   * el caracter punto (.) como separador
   * 3 digitos milesimas de segundo
+  * zona horaria
 
   Ejemplos:
   ```text
